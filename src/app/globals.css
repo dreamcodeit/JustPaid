@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
 
+
+
+
+
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -20,53 +25,109 @@
   }
 }
 */
- body {
-font-family: var(--font-ibm), sans-serif;
-} 
 
-.container{
+
+
+.theme-sub-heading{
+
+text-align: center;
+  font-family: var(--font-ibm), sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 43.2px */
+letter-spacing: -1.44px;
+}
+.theme-peregraph{
+
+text-align: center;
+font-family: "IBM Plex Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+letter-spacing: -0.16px;
+}
+
+
+
+body {
+  font-family: var(--font-ibm), sans-serif;
+}
+
+.container {
   max-width: 1200px;
   margin: auto;
 }
-.container-lg{
-    max-width: 1280px;
+.container-sm{
+  max-width: 1120px;
   margin: auto
 }
+
+.container-lg {
+  max-width: 1280px;
+  margin: auto
+}
+
 .primary-btn {
-    border-radius: 4px;
-    background: #EAE6DC;
+  border-radius: 4px;
+  background: #EAE6DC;
+  display: flex;
+  height: 44px;
+  padding: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-left: 26px;
+}
+
+button.secondary-btn {
+  border-radius: 4px;
+  background: #FACD2D;
+  color: #161616;
+  font-family: var(--font-ibm), sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 10px 24px;
+}
+
+button.third-btn {
+  border-radius: 4px;
+  border: 1px solid #D9D9D9;
+  background: #FFFEFB;
+  display: flex;
+  height: 40px;
+  padding: 0px 24px;
+  align-items: center;
+  gap: 14px;
+  color: #21211F;
+  font-family: var(--font-ibm), sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  /* 166.667% */
+}
+
+.inner-box-automate {
+    border-radius: 8px;
+    background: #363947;
+    padding: 60px 30px 40px 30px;
+    text-align: center;
     display: flex;
-    height: 44px;
-    padding: 0px 16px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 14px;
-    margin-left: 26px;
 }
-button.secondary-btn {
-    border-radius: 4px;
-    background: #FACD2D;
-    color: #161616;
-    font-family: var(--font-ibm), sans-serif;
-    font-size: 12px;
+
+p.automate {
+    color: #969BA6;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    padding: 10px 24px;
-}
-button.third-btn {
-    border-radius: 4px;
-    border: 1px solid #D9D9D9;
-    background: #FFFEFB;
-    display: flex;
-    height: 40px;
-    padding: 0px 24px;
-    align-items: center;
-    gap: 14px;
-    color: #21211F;
-font-family: var(--font-ibm), sans-serif;
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: 20px; /* 166.667% */
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
 }

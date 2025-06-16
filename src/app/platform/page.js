@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>Platform</div>
+    <div className='text-primary bg-primary'>Platform</div>
   )
 }
 
