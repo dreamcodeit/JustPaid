@@ -45,12 +45,17 @@ font-family: "IBM Plex Sans";
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 120%; /* 19.2px */
+
 letter-spacing: -0.16px;
 }
 
 
-
+span.below-btn {
+    position: absolute;
+    left: 9px;
+    bottom: -29px;
+    width: 100%;
+}
 body {
   font-family: var(--font-ibm), sans-serif;
 }

@@ -60,6 +60,7 @@ const page = () => {
 
 
       {/* Automate complex decisions Start */}
+
       <section className='bg-[#1E202E] py-[60px]'>
         <div className='main-box-automate container'>
           <h2 className='text-center font-[500] text-[11px] text-[#fff] theme-sub-heading'>Automate complex decisions</h2>
@@ -92,80 +93,110 @@ const page = () => {
           </div>
         </div>
       </section>
+
       {/* Automate complex decisions End*/}
 
 
-    {/* Designed for the modern  */}
- <section className='bg-[#fff] py-[96px]'>
-<div className='main-box-designed container'>
+      {/* Designed for the modern  */}
 
- <h2 className='text-center font-[500] text-[11px] text-[#161616] theme-sub-heading'>Designed for the modern CFO <br/>
-and finance leader</h2>
+      <section className='bg-[#fff] py-[96px]'>
+        <div className='main-box-designed container'>
+
+          <h2 className='text-center font-[500] text-[11px] text-[#161616] theme-sub-heading'>Designed for the modern CFO <br />
+            and finance leader</h2>
           <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B] mt-[20px] w-[48%] mx-auto'>As a financial decision-maker, you're balancing operational efficiency with strategic growth initiatives. JustPaid eliminates the manual workload that keeps your team from focusing on what matters:</p>
 
 
-<div className='inner-box-designed flex flex-wrap gap-[24px] justify-betweeen mt-[64px]'>
+          <div className='inner-box-designed flex flex-wrap gap-[24px] justify-betweeen mt-[64px]'>
 
-<div className='max-w-[31%]'>
-   <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
-     <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500]  mx-auto'>􀐕  Full workflow automation</p>
-     <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>From generating invoices to chasing payments, our AI handles it all—no human babysitting required.</p>
+            <div className='max-w-[31%]'>
+              <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
+              <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500]  mx-auto'>􀐕  Full workflow automation</p>
+              <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>From generating invoices to chasing payments, our AI handles it all—no human babysitting required.</p>
+            </div>
+
+            <div className='max-w-[31%]'>
+              <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
+              <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500] mx-auto'>Skip the tedious</p>
+              <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Let our AI handle contract analysis, invoice generation, and payment tracking</p>
+            </div>
+
+            <div className='max-w-[31%]'>
+              <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
+              <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500]  mx-auto'> Cash in faster</p>
+              <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Accelerate collections with intelligent workflows and automated follow-ups</p>
+            </div>
+          </div>
+          <div className='inner-box-designed flex flex-wrap gap-[24px] justify-betweeen mt-[64px]'>
+
+            <div className='max-w-[31%]'>
+              <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
+              <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500]  mx-auto'> Gain control</p>
+              <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Access comprehensive financial dashboards that provide the insights you need, when you need them</p>
+            </div>
+
+            <div className='max-w-[31%]'>
+              <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
+              <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500] mx-auto'>Scale confidently</p>
+              <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Our platform grows with you, handling increasing complexity without adding headcount</p>
+            </div>
+
+            <div className='max-w-[31%]'>
+              <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
+              <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500]  mx-auto'> Real-time data analytics</p>
+              <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Gain instant insights into your financial performance with live updates</p>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* Designed for the modern  */}
+
+
+
+
+
+
+{/* Questions and answers */}
+
+<section className='bg-[#F0EEE6] py-[60px]'>
+<div className='container-lg py-[60px] pb-[90px] bg-[#363E47] rounded-[8px]'>
+
+<div className='flex'>
+  <div className='max-w-[50%]'></div>
+  <div className='max-w-[50%]'></div>
 </div>
 
-<div className='max-w-[31%]'>
-   <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
-     <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500] mx-auto'>Skip the tedious</p>
-     <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Let our AI handle contract analysis, invoice generation, and payment tracking</p>
+</div>
+</section>
+
+{/* Questions and answers */}
+
+
+
+
+{/* Schedule a personalized */}
+
+<section className='bg-[#1E252E] py-[60px]'> 
+<div className='container-lg py-[60px] pb-[90px] bg-[#363E47] rounded-[8px]'>
+  <h2 className='text-center font-[500] text-[11px] text-[#fff] theme-sub-heading'>Schedule a personalized demo today
+</h2>
+  <p className='text-center text-primary bg-primary theme-peregraph text-[#AFAFAF] mt-[20px] w-[45%] mx-auto'>Join the U.S. businesses scaling smarter with JustPaid. In just 3-7 days, our AI Billing Agent can transform how you manage invoicing, payments, and growth. Let’s talk about what it can do for you.</p>
+    <div className='flex justify-center gap-[12px] mt-[32px]'>
+                <a className='pointer relative' href='#'> <button className="secondary-btn focus:outline-none">Get started • Schedule demo</button>
+                <span className='below-btn pt-[5px]  font-[400] text-[12px] text-[#ffffffa4] text-center'>No credit card required.</span>
+                </a>
+                <a href='#'> <button className="third-btn focus:outline-none">Talk to Founders</button></a>
+              </div>
+               
 </div>
 
-<div className='max-w-[31%]'>
-   <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
-     <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500]  mx-auto'> Cash in faster</p>
-     <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Accelerate collections with intelligent workflows and automated follow-ups</p>
-</div>
-</div>
-<div className='inner-box-designed flex flex-wrap gap-[24px] justify-betweeen mt-[64px]'>
-
-<div className='max-w-[31%]'>
-   <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
-     <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500]  mx-auto'> Gain control</p>
-     <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Access comprehensive financial dashboards that provide the insights you need, when you need them</p>
-</div>
-
-<div className='max-w-[31%]'>
-   <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
-     <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500] mx-auto'>Scale confidently</p>
-     <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Our platform grows with you, handling increasing complexity without adding headcount</p>
-</div>
-
-<div className='max-w-[31%]'>
-   <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
-     <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500]  mx-auto'> Real-time data analytics</p>
-     <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Gain instant insights into your financial performance with live updates</p>
-</div>
-</div>
-
-</div>
+</section>
 
 
-
-
-
- </section>
-
-    {/* Designed for the modern  */}
-
-
-
-
-
-
-
-
-
-
-
-
+{/* Schedule a personalized */}
 
 
     </>
