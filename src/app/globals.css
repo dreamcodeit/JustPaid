@@ -47,7 +47,7 @@ button.secondary-btn {
     border-radius: 4px;
     background: #FACD2D;
     color: #161616;
-    font-family: "IBM Plex Sans";
+    font-family: var(--font-ibm), sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -64,7 +64,7 @@ button.third-btn {
     align-items: center;
     gap: 14px;
     color: #21211F;
-font-family: "IBM Plex Sans";
+font-family: var(--font-ibm), sans-serif;
 font-size: 12px;
 font-style: normal;
 font-weight: 500;
