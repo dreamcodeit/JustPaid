@@ -131,3 +131,18 @@ p.automate {
     line-height: 25px;
     text-align: left;
 }
+
+
+
+/**** About Css ****/
+
+.top-tag-section, .middle-section-inner h1, .middle-bottom-btn-left button, .middle-bottom-btn-left p, .middle-bottom-btn-right button,
+.founders-stories-title h2, .our-values-title h2, .leading-investors-title h2, .middle-section-inner p.hero-sub-descripation, 
+.founders-stories-title p, .our-values-title p, .leading-investors-title p, .our-values-content h3, .our-values-content p, .schedule-personalized-inner h2 {
+    font-family: var(--font-ibm), sans-serif;
+}
+.bottom-section img {
+    box-shadow: 0px 0px 0px 1px rgba(3, 7, 18, 0.08), 0px 1px 2px -1px rgba(3, 7, 18, 0.08);
+}
+
+/**** About Css ****/
