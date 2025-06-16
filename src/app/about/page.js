@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Testimonials from '../components/testimonials';
+
 const page = () => {
   return (
     <>
@@ -24,7 +26,7 @@ const page = () => {
           </div>
         </div>
         <div className='bottom-section flex justify-center'>
-          <Image src={'/about/about-banner-img.png'} width={798} height={547} alt='text' className='rounded-[8px]' />
+          <Image src={'/about/about-banner-img.webp'} width={798} height={547} alt='text' className='rounded-[8px]' />
         </div>
       </div>
 
@@ -129,7 +131,9 @@ const page = () => {
 
       {/* Testimonial Section */}
       <div className='testimonial-section-main mt-[96px] bg-[#F0EEE6] py-[60px]'>
-        <div className='testimonial-section-inner container bg-[#fff] p-[60px]'></div>
+        <div className='testimonial-section-inner container bg-[#fff] p-[60px]'>
+          <Testimonials/>
+        </div>
       </div>
 
       {/* Schedule a personalized demo Today */}
