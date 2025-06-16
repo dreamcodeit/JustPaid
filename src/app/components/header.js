@@ -14,7 +14,7 @@ export default function Header() {
             {/* Logo */}
             <div className="flex flex-shrink-0 font-[500]">
               <Link href="/">
-                <Image src="images/logo.svg" width={125} height={22} alt="logo" />
+                <Image src="/images/logo.svg" width={125} height={22} alt="logo" />
               </Link>
 
               {/* Main Navigation */}
