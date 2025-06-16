@@ -44,3 +44,30 @@
     gap: 14px;
     margin-left: 26px;
 }
+button.secondary-btn {
+    border-radius: 4px;
+    background: #FACD2D;
+    color: #161616;
+    font-family: "IBM Plex Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 24px;
+}
+button.third-btn {
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    background: #FFFEFB;
+    display: flex;
+    height: 40px;
+    padding: 0px 24px;
+    align-items: center;
+    gap: 14px;
+    color: #21211F;
+font-family: "IBM Plex Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 166.667% */
+}
