@@ -22,7 +22,7 @@ export default function Header() {
 
                 {/* PLATFORM DROPDOWN */}
                 <div className="relative group">
-                  <Link href="/platform" className="inline-block">Platform</Link>
+                  <Link href="/platform" className="flex gap-[10px]">Platform <Image src={'/arrow-black.svg'} height={14} width={14} alt='a'/></Link>
                   <div className="absolute left-0 top-full mt-2 w-48 bg-white shadow-lg rounded-md py-2 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                     <Link href="/platform-gpt" className="block px-4 py-2 hover:bg-gray-100">Platform GPT</Link>
                     <Link href="/platform-receivable" className="block px-4 py-2 hover:bg-gray-100">Platform Receivable</Link>
@@ -31,7 +31,7 @@ export default function Header() {
 
                 {/* Other nav items */}
                  <div className="relative group">
-                  <Link href="/platform" className="inline-block">Platform</Link>
+                  <Link href="/platform" className="flex gap-[10px]">Partners <Image src={'/arrow-black.svg'} height={14} width={14} alt='a'/></Link>
                   <div className="absolute left-0 top-full mt-2 w-48 bg-white shadow-lg rounded-md py-2 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                     <Link href="/partners-cfo" className="block px-4 py-2 hover:bg-gray-100">Partners CFO</Link>
                     <Link href="/partners-developers" className="block px-4 py-2 hover:bg-gray-100">Partners Developers</Link>
@@ -43,14 +43,14 @@ export default function Header() {
                 {/* ABOUT DROPDOWN */}
                <Link href="/about" className="inline-block">About</Link>
 
-                <Link href="/blog" className="hover:text-blue-500">Resources</Link>
+                <Link href="/blog" className="flex gap-[10px]">Resources <Image src={'/arrow-black.svg'} height={14} width={14} alt='a'/></Link>
               </div>
             </div>
 
             {/* Right-side buttons */}
             <div className="flex items-center space-x-4">
-              <Link href="/" className="hover:text-blue-500">Login</Link>
-              <button className="primary-btn focus:outline-none">Book a demo</button>
+              <Link href="/" className="font-medium">Login</Link>
+              <button className="primary-btn focus:outline-none font-medium">Book a demo <Image src={'/arrow-right.svg'}  height={10} width={6} alt='a'/></button>
             </div>
 
           </div>

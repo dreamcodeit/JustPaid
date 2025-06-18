@@ -241,3 +241,43 @@ button,a {
 }
 
 /**** Slider Css ****/
+
+.inner-hero-left {
+    width: 80%;
+}
+ 
+.scroller-ps {
+  direction: rtl;              
+  overflow-y: auto;       
+       
+}
+
+.scroller-ps > * {
+  direction: ltr;            
+}
+
+
+.scroller-ps {
+  direction: rtl;
+  overflow-y: auto;
+ 
+}
+
+
+.scroller-ps > * {
+  direction: ltr;
+}
+
+
+.scroller-ps::-webkit-scrollbar {
+  width: 3px; 
+}
+
+.scroller-ps::-webkit-scrollbar-track {
+  background: #BEBCB7;
+}
+
+.scroller-ps::-webkit-scrollbar-thumb {
+  background-color: #FACD2D; 
+  border-radius: 3px;
+}

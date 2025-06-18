@@ -15,7 +15,7 @@ const page = () => {
               <span className='font-[500] text-[10px] max-w-[185px] items-center rounded-[4px] gap-[4px] px-[12] py-[4] logo-section flex  bg-[#EAE6DC]'> <span>Backed by</span> <Image src={'/y-log.svg'} height={15} width={15} alt='img'></Image> <span>Combinator (W23)</span> </span>
               <h1 className='font-[300] leading-[53px] tracking-[-1.92px] mt-[32px] text-[48px]'>Your autonomous <br /> <b className='font-[500]' >AI billing agent </b>for complex financial operations</h1>
 
-              <h6 className=' font-[400] leading-[30px] tracking-[-0.2px] mt-[32px]  mt-[32px] text-[20px] text-[#787878] max-w-[412px] '>Built from the ground up to handle complexity,
+              <h6 className=' font-[400] leading-[30px] tracking-[-0.2px] mt-[32px]  text-[20px] text-[#787878] max-w-[412px] '>Built from the ground up to handle complexity,
                 not stitched together like the  rest.
               </h6>
 
@@ -26,7 +26,7 @@ const page = () => {
               <p className='pt-[5px] ps-[40px] font-[400] text-[12px] text-[#61615e]'>No credit card required.</p>
             </div>
 
-            <div className="w-[42%] bg-[url(/home/banner-right.webp)] flex flex-col justify-center items-center gap-[10px] py-4">
+            <div className="w-[42%] bg-[url(/home/banner-right.webp)] flex flex-col justify-center items-center py-4">
 
               <div className="hero-setion-box-outer flex bg-white px-[18px] py-[15px] gap-[15px] rounded-[4px] h-[73px] max-w-[336px]">
                 <div className="inner-hero-right">
@@ -35,21 +35,22 @@ const page = () => {
                 <div className="inner-hero-left">
                   <p className='font-[500] text-[11px] text-[#000]'>CFOs waste valuable time on billing, contracts, and collections.</p>
                 </div>
+                 
               </div>
-
+ <Image className='arrow-banner' src="/arrow-down.svg" height={20} width={20} alt="color" />
               <div className="hero-setion-box-outer flex bg-white px-[18px] py-[15px] gap-[15px] rounded-[4px] h-[73px] max-w-[336px]">
                 <div className="inner-hero-right">
-                  <Image src="/color-one.svg" height={44} width={44} alt="color" />
+                  <Image src="/home/hero-ico.svg" height={44} width={44} alt="color" />
                 </div>
                 <div className="inner-hero-left">
                   <p className='font-[500] text-[11px] text-[#000]'>JustPaid.ai automates everything. It reads
                     contracts, sends invoices, and more</p>
                 </div>
               </div>
-
+ <Image className='arrow-banner' src="/arrow-down.svg" height={20} width={20} alt="color" />
               <div className="hero-setion-box-outer flex bg-white px-[18px] py-[15px] gap-[15px] rounded-[4px] h-[73px] max-w-[336px]">
                 <div className="inner-hero-right">
-                  <Image src="/color-one.svg" height={44} width={44} alt="color" />
+                  <Image src="/home/hero-ico-new.svg" height={50} width={50} alt="color" />
                 </div>
                 <div className="inner-hero-left">
                   <p className='font-[500] text-[11px] text-[#000]'>No more spreadsheet chaos. You get paid faster, with less work.</p>
@@ -119,13 +120,13 @@ const page = () => {
             </div>
 
             <div className='max-w-[31%]'>
-              <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
+              <Image src={'/home/summary.png'} width={384} height={273} alt='img' />
               <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500] mx-auto'>Skip the tedious</p>
               <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Let our AI handle contract analysis, invoice generation, and payment tracking</p>
             </div>
 
             <div className='max-w-[31%]'>
-              <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
+              <Image className='w-[100%]' src={'/home/cash.png'} width={384} height={273} alt='img' />
               <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500]  mx-auto'> Cash in faster</p>
               <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Accelerate collections with intelligent workflows and automated follow-ups</p>
             </div>
@@ -133,19 +134,19 @@ const page = () => {
           <div className='inner-box-designed flex flex-wrap gap-[24px] justify-betweeen mt-[64px]'>
 
             <div className='max-w-[31%]'>
-              <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
+              <Image src={'/home/gain.png'} width={384} height={273} alt='img' />
               <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500]  mx-auto'> Gain control</p>
               <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Access comprehensive financial dashboards that provide the insights you need, when you need them</p>
             </div>
 
             <div className='max-w-[31%]'>
-              <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
+              <Image src={'/home/Scale.png'} width={384} height={273} alt='img' />
               <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500] mx-auto'>Scale confidently</p>
               <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Our platform grows with you, handling increasing complexity without adding headcount</p>
             </div>
 
             <div className='max-w-[31%]'>
-              <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
+              <Image src={'/home/Real-time.png'} width={384} height={273} alt='img' />
               <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500]  mx-auto'> Real-time data analytics</p>
               <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Gain instant insights into your financial performance with live updates</p>
             </div>
@@ -190,13 +191,13 @@ const page = () => {
       <section className='bg-[#FAF9F5]'>
         <div className='container py-[60px]'>
           <div className='flex justify-between'>
-            <div className='max-w-[48%]'> <h2 className=' text-left font-[500] text-[11px] text-[#161616] theme-sub-heading'>Don’t take our word for it. See what our clients say</h2>
+            <div className='max-w-[46%]'> <h2 className=' text-left font-[500] text-[11px] text-[#161616] theme-sub-heading'>Don’t take our word for it.<br/> See what our clients say</h2>
              <p className='text-left text-primary bg-primary theme-peregraph text-[#6B6B6B] mx-auto py-[20px]'>Tell us your most pressing billing challenge—Whether it’s collections, accuracy,  or improving financial reporting—and we’ll show you how JustPaid streamlines the entire flow.</p>
                <a className='pointer relative ' href='#'> <button className=" fourth-btn focus:outline-none bg-[#161616]">Get started • Schedule demo</button>
 
               </a>
             </div>
-            <div className='max-w-[48%]'>
+            <div className='max-w-[52%]'>
               <TestimonialSection/>
             </div>
           </div>
