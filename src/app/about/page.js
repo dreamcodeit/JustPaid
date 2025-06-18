@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Testimonials from '../components/testimonials';
+import FoundersStories from '../components/founders-stories';
 
 const page = () => {
   return (
@@ -32,9 +33,10 @@ const page = () => {
 
       {/* Our founders stories */}
       <div className='founders-stories-main py-[60px] bg-[#1e202e]'>
-        <div className='founders-stories-title text-center container'>
+        <div className='founders-stories-title text-center'>
           <h2 className='text-[36px] font-[400] leading-[43.2px] tracking-[-1.44px] text-[#fff]'>Our founders’ stories</h2>
           <p className='text-[16px] font-[400] leading-[19.2px] tracking-[-0.16px] text-[#AFAFAF] mt-[8px]'>AI collaboration enhances your creativity</p>
+          <FoundersStories/>
         </div>
       </div>
 
@@ -131,14 +133,14 @@ const page = () => {
 
       {/* Testimonial Section */}
       <div className='testimonial-section-main mt-[96px] bg-[#F0EEE6] py-[60px]'>
-        <div className='testimonial-section-inner container bg-[#fff] p-[60px]'>
+        <div className='testimonial-section-inner container-lg bg-[#fff] p-[60px] rounded-[8px]'>
           <Testimonials/>
         </div>
       </div>
 
       {/* Schedule a personalized demo Today */}
       <div className='schedule-personalized-main bg-[#1E252E] py-[60px]'>
-        <div className='schedule-personalized-inner text-center container bg-[#363E47] p-[60px]'>
+        <div className='schedule-personalized-inner text-center container-lg bg-[#363E47] p-[60px] rounded-[8px]'>
           <h2 className='text-[36px] font-[400] leading-[43.2px] tracking-[-1.44px] text-[#fff] mb-[20px]'>Schedule a personalized demo Today</h2>
           <p className='max-w-[580px] mx-auto mb-[46px] text-[16px] font-[400] leading-[23.36px] text-[#AFAFAF]'>Join the U.S. businesses scaling smarter with JustPaid. In just 3-7 days, our AI Billing Agent can transform how you manage invoicing, payments, and growth. Let’s talk about what it can do for you.</p>
           <div className='middle-bottom-btn flex justify-center gap-x-[12px]'>
