@@ -157,7 +157,71 @@ button,a {
 .bottom-section img {
     box-shadow: 0px 0px 0px 1px rgba(3, 7, 18, 0.08), 0px 1px 2px -1px rgba(3, 7, 18, 0.08);
 }
-
+.testimonialSwiper .swiper-button-next {
+    border: 1px solid #c6c6c6;
+    border-radius: 0 4px 4px 0px;
+    width: 99px;
+    height: 99px;
+    right: 0;
+    transform: rotate(90deg);
+    top: inherit;
+    bottom: 0;
+    background: #fff;
+}
+.testimonialSwiper .swiper-button-next::after, .testimonialSwiper .swiper-button-prev:after {
+    color: #6B6B6B;
+    font-size: 36px;
+}
+.testimonialSwiper .swiper-button-prev {
+    left: inherit;
+    border: 1px solid #c6c6c6;
+    border-right: 0;
+    width: 99px;
+    height: 99px;
+    top: 25px;
+    right: 0;
+    transform: rotate(90deg);
+    border-radius: 4px 0px 0 4px;
+    background: #fff;
+}
+.testimonialSwiper .swiper-button-prev:hover, .testimonialSwiper .swiper-button-next:hover {
+    background: #f0eee6;
+    border-color: #f0eee6;
+}
+.foundersThumbsSwiper .swiper-slide-thumb-active {
+    border-radius: 8px;
+    background: #363947;
+}
+.foundersThumbsSwiper .swiper-slide-thumb-active .founders-name h3 {
+    color: #FFF;
+    font-weight: 600;
+}
+.foundersThumbsSwiper .swiper-slide-thumb-active img {
+    border: 3px solid #FFF;
+}
+.mainSwiper .swiper-slide-active .founders-bottom-description {
+    padding-top: 54px;
+    padding-bottom: 54px;
+    padding-left: 32px;
+    padding-right: 60px;
+    background: #fff;
+}
+.mainSwiper .swiper-slide-active .founders-bottom-description h2 {
+    color: #0B0A1F;
+}
+.mainSwiper .swiper-slide-active .founders-bottom-description p {
+    color: #666D80;
+    line-height: 29px;
+}
+.mainSwiper .swiper-slide-active .founders-bottom-description .founders-designation h3 {
+    color: #37394A;
+}
+.mainSwiper .swiper-slide-active .founders-bottom-description .founders-designation p {
+    color: #858585;
+}
+.mainSwiper .swiper-wrapper {
+    align-items: center;
+}
 /**** About Css ****/
 
 
