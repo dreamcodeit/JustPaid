@@ -25,8 +25,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "JustPaid",
-  description: "Just Paid",
+  title: "JustPaid - AI Revenue Ops",
+  description: "JustPaid AI follows up on unpaid invoices, tracks your customers' payments, and lets you see all of the communications.",
+  icons: {
+    icon: '/fav.png',
+  },
 };
 
 export default function RootLayout({ children }) {
