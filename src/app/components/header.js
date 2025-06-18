@@ -44,6 +44,8 @@ export default function Header() {
                <Link href="/about" className="inline-block">About</Link>
 
                 <Link href="/blog" className="flex gap-[10px]">Resources <Image src={'/arrow-black.svg'} height={14} width={14} alt='a'/></Link>
+
+                
               </div>
             </div>
 
