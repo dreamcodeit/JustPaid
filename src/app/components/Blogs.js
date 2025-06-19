@@ -9,7 +9,7 @@ const Blogs = () => {
 
   useEffect(() => {
     axios
-      .get('https://justpaid.dreamcodeit.in/wp-json/custom/v1/posts') 
+      .get('https://justpaid.dreamcodeit.in/wp-json/custom/v1/posts?per_page=100') 
       .then((response) => {
         setPosts(response.data);
         setLoading(false);
@@ -21,9 +21,9 @@ const Blogs = () => {
   }, []);
 
   return (
-    <section className="bg-[#F0EEE6] py-[40px]">
-      <div className="container mx-auto px-4">
-        <h2 className='font-[300] leading-[53px] tracking-[-1.92px] mt-[32px] text-[48px] text-center mb-[30px]'>Latest posts</h2>
+    <section className="bg-[#F0EEE6] py-[60px]">
+      <div className="container mx-auto ">
+        <h2 className='font-[300] leading-[53px] tracking-[-1.92px] text-[48px] text-center mb-[30px]'>Latest posts</h2>
 
         {loading ? (
           <div className="flex justify-center items-center h-40">
@@ -35,7 +35,7 @@ const Blogs = () => {
              
              <div
                 key={post.id}
-                className="bg-white rounded-lg shadow-md p-4 w-full sm:w-[calc(50%-12px)] md:w-[calc(33.33%-16px)]"
+                className="bg-white rounded-lg shadow-md py-[30px] px-[30px] w-full sm:w-[calc(50%-12px)] md:w-[calc(33.33%-16px)]"
               >
                 {post.featured_img && (
                   <img
