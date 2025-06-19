@@ -10,6 +10,7 @@ import Image from 'next/image';
 const Testimonials = () => {
   return (
     <Swiper
+     direction="vertical"
       navigation={true}
       modules={[Navigation]}
       className="testimonialSwiper"

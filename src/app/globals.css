@@ -281,3 +281,6 @@ button,a {
   background-color: #FACD2D; 
   border-radius: 3px;
 }
+.testimonial-section-inner .swiper-wrapper {
+    height: 200px;
+}

@@ -73,25 +73,25 @@ const page = () => {
           <div className='inner-box-automate-main flex flex-wrap gap-[18px] mt-[64px]'>
 
             <div className='inner-box-automate max-w-[43%]'>
-              <Image src={'/home/card-one.png'} width={296} height={236} alt='img' />
+              <Image src={'/home/Cards.svg'} width={350} height={236} alt='img' />
               <p className='automate mt-[71]'><span className='text-[#fff]'>Complexity made simple.</span> Your cash flow takes a hit when payments are delayed by 30+ days. Simplifying invoicing ensures quick payment and financial stability.</p>
             </div>
 
 
             <div className='inner-box-automate max-w-[55%]'>
-              <Image src={'/home/card-two.png'} width={350} height={234} alt='img' />
+              <Image src={'/home/cards2.svg'} width={400} height={234} alt='img' />
               <p className='automate  mt-[52]'> <span className='text-[#fff]'>􀧘  Modern architecture, modern results.</span> Built for today's startups and growing businesses, our platform integrates seamlessly with your existing tech stack while providing the flexibility to scale as you evolve. </p>
             </div>
 
 
             <div className='inner-box-automate max-w-[55%]'>
-              <Image src={'/home/card-three.png'} width={352} height={210} alt='img' />
+              <Image src={'/home/three.svg'} width={400} height={210} alt='img' />
               <p className='automate mt-[65]'> <span className='text-[#fff]'>􁖆  AI-powered precision.</span> Say goodbye to billing errors and revenue leakage. Our autonomous agent continuously learns from your data, ensuring accurate invoicing every time while identifying opportunities to optimize your revenue streams.</p>
             </div>
 
 
             <div className='inner-box-automate max-w-[43%]'>
-              <Image src={'/home/card-four.png'} width={285} height={210} alt='img' />
+              <Image src={'/home/four.svg'} width={350} height={210} alt='img' />
               <p className='automate mt-[30]'> <span className='text-[#fff]'>􀖗  Strategic Financial Insights.</span> Transform billing data into actionable intelligence. See real-time cash flow, customer behavior, and revenue trends in real-time for faster decisions.</p>
             </div>
           </div>
@@ -114,19 +114,31 @@ const page = () => {
           <div className='inner-box-designed flex flex-wrap gap-[24px] justify-betweeen mt-[64px]'>
 
             <div className='max-w-[31%]'>
-              <Image src={'/home/designed-one.png'} width={384} height={273} alt='img' />
+
+              <div className='bg-[#F0EEE9] min-h-[273px] flex justify-center rounded-[8px]'>
+
+                <Image src={'/home/info1.svg'} width={320} height={200} alt='img' />
+              </div>
+              
+
               <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500]  mx-auto'>􀐕  Full workflow automation</p>
               <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>From generating invoices to chasing payments, our AI handles it all—no human babysitting required.</p>
             </div>
 
             <div className='max-w-[31%]'>
-              <Image src={'/home/summary.png'} width={384} height={273} alt='img' />
+              <div className='bg-[#F0EEE9] min-h-[273px] flex justify-center items-end rounded-[8px]'>
+
+                <Image src={'/home/info2.svg'} width={280} height={200} alt='img' />
+              </div>
               <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500] mx-auto'>Skip the tedious</p>
               <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Let our AI handle contract analysis, invoice generation, and payment tracking</p>
             </div>
 
             <div className='max-w-[31%]'>
-              <Image className='w-[100%]' src={'/home/cash.png'} width={384} height={273} alt='img' />
+              <div className='bg-[#F0EEE9] min-h-[273px] flex justify-center rounded-[8px]'>
+
+                <Image src={'/home/info3.svg'} width={320} height={200} alt='img' />
+              </div>
               <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500]  mx-auto'> Cash in faster</p>
               <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Accelerate collections with intelligent workflows and automated follow-ups</p>
             </div>
@@ -134,19 +146,28 @@ const page = () => {
           <div className='inner-box-designed flex flex-wrap gap-[24px] justify-betweeen mt-[64px]'>
 
             <div className='max-w-[31%]'>
-              <Image src={'/home/gain.png'} width={384} height={273} alt='img' />
+              <div className='bg-[#F0EEE9] min-h-[273px] flex justify-center items-end rounded-[8px]'>
+
+                <Image src={'/home/info4.svg'} width={290} height={200} alt='img' />
+              </div>
               <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500]  mx-auto'> Gain control</p>
               <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Access comprehensive financial dashboards that provide the insights you need, when you need them</p>
             </div>
 
             <div className='max-w-[31%]'>
-              <Image src={'/home/Scale.png'} width={384} height={273} alt='img' />
+              <div className='bg-[#F0EEE9] min-h-[273px] flex justify-end items-center rounded-[8px]'>
+
+                <Image src={'/home/info5.svg'} width={340} height={200} alt='img' />
+              </div>
               <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500] mx-auto'>Scale confidently</p>
               <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Our platform grows with you, handling increasing complexity without adding headcount</p>
             </div>
 
             <div className='max-w-[31%]'>
-              <Image src={'/home/Real-time.png'} width={384} height={273} alt='img' />
+              <div className='bg-[#F0EEE9] min-h-[273px] flex justify-end items-end  rounded-[8px]'>
+
+                <Image src={'/home/info6.svg'} width={340} height={340} alt='img' />
+              </div>
               <p className='text-center text-primary bg-primary theme-peregraph-b text-[#1B2843] mt-[20px] font-[500]  mx-auto'> Real-time data analytics</p>
               <p className='text-center text-primary bg-primary theme-peregraph text-[#6B6B6B]  mx-auto'>Gain instant insights into your financial performance with live updates</p>
             </div>

@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-
+import Link from 'next/link';
 const FeaturedBlog = () => {
   const [featuredPost, setFeaturedPost] = useState(null);
 
@@ -33,9 +33,9 @@ const FeaturedBlog = () => {
                 {featuredPost.categories[0]}
               </p>
             )}
-            <h2 className='font-[400] leading-[43px] tracking-[-1.92px] mt-[32px] text-[36px] max-w-[90%]'>
+            <Link className='text-[24px] text-[#161616]' href={`/blog/${featuredPost.slug}`}> <h2 className='font-[400] leading-[43px] tracking-[-1.92px] mt-[32px] text-[36px] max-w-[90%]'>
               {featuredPost.title}
-            </h2>
+            </h2></Link>
             <h6 className='font-[400] leading-[30px] tracking-[-0.2px] mt-[32px] text-[20px] text-[#787878] max-w-[550px]'>
               {featuredPost.excerpt}
             </h6>

@@ -37,33 +37,28 @@ const SingleBlog = () => {
   return (
     <>
       <div className="bg-[#faf9f5]">
-        <div className="container py-[80px]">
-          <h1 className="font-[300] leading-[53px] tracking-[-1.92px] mt-[32px] text-[48px]">
-            Blog and resources
-          </h1>
-          <div className="flex justify-between flex-col md:flex-row">
-            <div className="w-full md:w-[55%] py-[50px]">
-              <h2 className="font-[300] leading-[53px] tracking-[-1.92px] mt-[32px] text-[36px] md:text-[48px]">
-                {post.title}
-              </h2>
+        <div className="container py-[60px]">
 
-              <p className="font-[400] leading-[30px] tracking-[-0.2px] mt-[20px] text-[20px] text-[#787878] max-w-[550px]">
-                {post.excerpt}
-              </p>
+<div className='row text-center'>
+<h2 className='font-[400] leading-[43px] tracking-[-0.36px] text-center text-[36px] '>
+              {post.title}
+            </h2>
 
+ {post.featured_img && (
               <div
-                className="mt-6 text-[#333] leading-[28px] text-[16px] prose max-w-none"
-                dangerouslySetInnerHTML={{ __html: post.content }}
-              />
-            </div>
-
-            {post.featured_img && (
-              <div
-                className="w-full md:w-[42%] bg-no-repeat bg-cover bg-center rounded-lg min-h-[300px]"
+                className="mt-[30px] w-full md:w-[50%] mx-auto bg-no-repeat bg-cover bg-center rounded-lg min-h-[435px]"
                 style={{ backgroundImage: `url(${post.featured_img})` }}
               />
             )}
-          </div>
+ <div
+                className="max-w-[60%] mx-auto text-center mt-6 text-[#0b0a1faf] leading-[34px] text-[20px] prose"
+                dangerouslySetInnerHTML={{ __html: post.content }}
+              />
+
+</div>
+
+
+   
         </div>
       </div>
 

@@ -23,7 +23,7 @@ const Blogs = () => {
   return (
     <section className="bg-[#F0EEE6] py-[60px]">
       <div className="container mx-auto ">
-        <h2 className='font-[300] leading-[53px] tracking-[-1.92px] text-[48px] text-center mb-[30px]'>Latest posts</h2>
+        <h2 className='font-[400] leading-[53px] tracking-[-1.44px] text-[36px] text-center mb-[30px]'>Latest posts</h2>
 
         {loading ? (
           <div className="flex justify-center items-center h-40">
@@ -44,9 +44,9 @@ const Blogs = () => {
                     className="w-full h-48 object-cover rounded-md mb-4"
                   />
                 )}
-                <Link className='text-[24px] text-[#161616]' href={`/blog/${post.slug}`}>{post.title}</Link>
+                <Link className='text-[24px] leading-[34px] text-[#161616]' href={`/blog/${post.slug}`}>{post.title}</Link>
              
-                <p className="text-xs text-gray-500">
+                <p className="text-[14px] text-[#787878] mt-[10px]">
                   {post.date}
                 </p>
                  
