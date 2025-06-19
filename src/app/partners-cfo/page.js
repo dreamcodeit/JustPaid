@@ -141,7 +141,7 @@ const page = () => {
                 alt={'img'}
                 className="max-w-[100%] h-[273px] object-cover rounded-md "
               />
-                  <p className='text-center text-[16px] bg-primary theme-peregraph text-[#1B2843] w-[45%] mx-auto mt-[20px] '> Technology Partners</p>
+                  <p className='text-center text-[16px] bg-primary  text-[#1B2843] w-[45%] mx-auto mt-[20px] font-[500]'> Technology Partners</p>
               <p className="text-[14px] text-center text-[#1B2843] mt-[10px]">
              Collaborate with us to integrate cutting-edge solutions that enhance your software and deliver more value to your customers.
               </p>
@@ -153,9 +153,9 @@ const page = () => {
                 alt={'img'}
                 className="max-w-[100%] h-[273px] object-cover rounded-md "
               />
-                  <p className='text-center text-[16px] bg-primary theme-peregraph text-[#1B2843] w-[45%] mx-auto mt-[20px] '> Technology Partners</p>
+                  <p className='text-center text-[16px] bg-primary font-[500] text-[#1B2843] w-[45%] mx-auto mt-[20px] '> Service partners</p>
               <p className="text-[14px] text-center text-[#1B2843] mt-[10px]">
-             Collaborate with us to integrate cutting-edge solutions that enhance your software and deliver more value to your customers.
+            Provide on-site expertise and support, helping businesses maximize their use of our platform while earning for your skills.
               </p>
             </div>
 
@@ -165,14 +165,19 @@ const page = () => {
                 alt={'img'}
                 className="max-w-[100%] h-[273px] object-cover rounded-md ]"
               />
-                   <p className='text-center text-[16px] bg-primary theme-peregraph text-[#1B2843] w-[45%] mx-auto mt-[20px] '> Technology Partners</p>
+                   <p className='text-center text-[16px] bg-primary font-[500] text-[#1B2843] w-[45%] mx-auto mt-[20px] '> Retail Partners</p>
               <p className="text-[14px] text-center text-[#1B2843] mt-[10px]">
-             Collaborate with us to integrate cutting-edge solutions that enhance your software and deliver more value to your customers.
+            Expand your offerings and earn more by bringing our platform to new markets as an official reseller.
               </p>
             </div>
 
 
           </div>
+
+<div className='mt-[64px] py-[20px] flex justify-center items-center gap-[20px] row bg-[#E3E0D3]'> <p>Got questions?</p>  <a className='pointer relative' href='#'> <button className="secondary-btn focus:outline-none">Contact us</button>
+           
+            </a></div>
+
         </div>
 
       </section>
@@ -181,6 +186,26 @@ const page = () => {
       {/* A Platform  */}
 
 
+      {/* Schedule a personalized */}
+
+      <section className='bg-[#1E252E] py-[60px]'>
+        <div className='container-lg py-[60px] pb-[90px] bg-[#363E47] rounded-[8px]'>
+          <h2 className='text-center font-[500] text-[11px] text-[#fff] theme-sub-heading'>Become a partner
+          </h2>
+          <p className='text-center text-primary bg-primary theme-peregraph text-[#AFAFAF] mt-[20px] w-[45%] mx-auto'>Are you a financial advisor, accounting firm, or technology provider interested in joining our partner ecosystem? We're continuously expanding our network of strategic alliances to better serve our clients and support custom systems with our autonomous AI billing agent.</p>
+          <div className='flex justify-center gap-[12px] mt-[32px]'>
+            <a className='pointer relative' href='#'> <button className="secondary-btn focus:outline-none">Become a partner</button>
+           
+            </a>
+           
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* Schedule a personalized */}
 
 
 
